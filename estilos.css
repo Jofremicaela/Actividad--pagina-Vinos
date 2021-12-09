@@ -1,0 +1,380 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    background: gray;
+
+}
+/*--------------------------contenedor general--------------------*/
+    .contenedor-gen { 
+        width:900px; 
+        height: 1200px;
+        background: brown ;
+        margin: auto;
+    }
+
+/*---------------header -----------*/
+
+
+
+
+        header {
+            width:100%;
+            height:30%;
+            
+        } 
+                header .imgheader{
+                    width: 100%;
+                    height:90%;
+                    
+                    }
+
+                    .imgheader img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    
+                     /*menu*/
+.menu, .menu ul, .menu ul li, .menu ul li a{
+    background: black;
+}
+
+                .menu {
+                        width:100%;
+                        height:10%;
+                        border-top: 2px solid white;
+                        }
+
+                 .menu ul{
+                        width: 100%;
+                       height: 93%;
+                       text-align: center; 
+                          }
+
+.menu ul li{
+     padding: 5px;
+    font-size: 15px;
+    width: 8,5%;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    border-right: solid 1px white;
+
+}
+
+.menu ul li a{
+      text-decoration: none;
+      color: white;
+  }
+.menu ul li a:hover{
+    color:red;
+}
+
+                                    /*----------------main- cuerpo----------------------*/
+
+
+
+        main#general {
+            width:100%;
+            height: 67%;
+            background: #6F0101;
+        }
+
+main#general .producto h2, .izquierda, .izquierda p, .producto, .derecha .titulo1d{
+    background-color: #6F0101;
+}
+
+.producto h2 {
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
+           main .izquierda {
+                width: 30%;
+                height: 100%;                
+                float: left;
+               
+            }
+
+                .izquierda .producto{
+                    width: 100%;
+                    height: 5%;
+                    text-align: center;
+                    margin-top: 15px;
+                }
+                .producto img{
+                    margin-top:3px;
+                }
+
+                p.texto1, .texto2, .texto3 {
+                    color: white;
+                    font-size: 12px;
+                    margin: 10px; 
+                    text-align: center;
+                }
+
+                .botellas, .copacara, .botellas2{
+                    margin: auto;
+                    width: 85%;
+                    height: 15%;
+                    
+                }
+                .botellas img{
+                    height: 100%;
+                    width: 100%;
+                }
+
+                .copacara img{
+                    width: 100%;
+                    height: 100%;
+                    
+                }
+                .botellas2 img{
+                     width: 100%;
+                    height: 100%;
+                }
+
+
+/*-----------------------*/
+                
+                div .login{
+
+                    width: 85%;
+                    height: 25%;
+                    background-color: rgb(68, 2, 2);
+                    color: blanchedalmond;
+                    margin: auto; 
+                    margin-top: 20px;
+                    text-align: center;
+                }
+
+                .login h3{
+                     font-size: 15px; 
+                     color: blanchedalmond;
+                     height: 25px;
+                     width: 100%;
+                }
+
+             
+                .form{
+                    width: 100%;
+                    color: blanchedalmond; 
+                    font-size: 15px; 
+                 
+                }
+
+                table{
+                    width: 100%;
+                    height: 10%;
+                }
+
+        .boton_login, .formulario, .login h3, div .login, .suscripcion, .suscripcion p, .suscripcion p a, table, form {
+                     background: rgb(68, 2, 2);
+                }
+
+              .inputt input{
+                margin: 10px;
+              }
+
+              
+              .suscripcion p a{
+                color: white;
+              }
+
+              .texto1, .texto2, .texto3 {
+                height: 3%;
+              }
+
+                
+            input:invalid {
+                background-color: white;
+                 }
+                 form:invalid {
+                    border: 5px ;
+                  }
+                  input:valid {
+                    background-color: #5fb35f;
+                  }
+                  form:valid {
+                      border: 0px  }
+
+                 /*----------              centro           ------------------*/ 
+
+            .centro{
+                width: 200px;
+                height: 95.5%;
+                /*background-color: #6F0101;*/
+                background: rgb(68, 2, 2);
+                float: left;
+            }
+            .centro1, .centro2{
+                color:white;
+                height: 50%;
+                width: 100%;
+            }
+           
+            .centro article p{
+                width: 90%;
+                margin: auto;
+            }
+            .centro h2 img{
+                margin-top: 20px;
+            }
+
+             .centro2 h2, .centro1 h2{
+                text-align: center;
+                height: 15%;
+                 background: orange;
+            }
+            .fecha{
+                color: red;
+                margin-top: 10px;
+                width: 100%;
+                height: 7%;
+                text-align: center;
+            }
+            .textoeventos{
+                justify-content: center;
+                text-align: center;
+                line-height: 1.6em;
+            }
+            .textoglosario{
+                line-height: 1.3em;
+            }
+
+                .centro1, .centro2, .textoeventos, .textoglosario, .centro article p, .fecha, .titulo2d, .centro h2{
+                    background: rgb(68, 2, 2);            
+}
+                
+
+            /*-----------------------** DERECHA!!!-----------------------*/
+            .derecha {
+                width: 430px;
+                height:100%;
+                background-color: #6F0101;
+                float: left;
+            }
+
+.derecha, .derecha h2, .titulo1d , .derecha article, .texto1d p, b, .texto2d p, .contenedor-articulos{
+                 background-color: #6F0101;
+            }
+
+.derecha h2, h4, .texto1d, .texto2d, .contenedor-article-derecha1, .derecha_cuadrado, .contenedor-articulos{
+                width: 95%;
+                margin: auto; }
+.derecha h2{
+    margin-top: 26px;
+    height: 6%;
+    color: white;
+}
+
+.titulo1d{
+    height: 7%;
+    color: gray;
+    line-height: 1.5em;
+}
+
+.texto1d{
+    text-align: justify;
+    height: 26.5%;
+    line-height: 1.2em;
+}
+
+.titulo2d{
+    height: 8%;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+
+.texto2d{
+    height: 15%;
+    margin-top: 5%;
+}
+
+.texto1d p, .texto2d p{
+height: 100%;
+}
+.contenedor-articulos{
+    height: 27%;
+    margin-top: 2%;
+    
+}
+
+.contenedor-articulos>div{
+    height: 96%;
+    width: 48%;
+    background: brown;
+}
+
+
+.contenedor-articulos p, .derecha-art1 ul , .derecha-art1 li, .derecha_cuadrado a, .derecha_cuadrado .historia{
+    background: brown;
+}
+
+.derecha_cuadrado{
+    float: right;
+}
+
+.derecha_cuadrado .historia{
+    margin-top: 20px;
+}
+.derecha-art1{
+    float: left;
+}
+.derecha-art1 ul li{
+   list-style: none;
+     line-height: 1.4em;
+}
+
+.derecha-art1 ul{
+    width: 90%;
+    margin: auto;
+}
+.contenedor-articulos p, ul li{
+        margin-top: 20px;
+}
+
+.contenedor-articulos h3{
+    width: 100%;
+    background: black;
+    color:white;
+    text-align: center;
+}
+
+.derecha_cuadrado p{
+    
+    height: 100%;
+    width: 90%;
+    margin: auto;
+}
+
+
+/*-----------------footer-------------------*/
+
+        footer {
+            
+            width: 100%;
+            height: 5%;
+          }
+
+footer, .pie,  .pie ul, .pie li, .pie ul li a{
+    background: black;
+}
+            .pie ul{
+                width: 100%;
+                height: 50%;
+                border-top: solid 2px white;
+            }
+            .pie ul li{
+             display: inline-block;
+            padding: 5px;
+            border-right: solid 1px gray;
+            
+            }
+
+            .pie ul li a{
+                text-decoration: none;
+                color: white;
+            }
